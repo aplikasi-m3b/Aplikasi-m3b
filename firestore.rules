@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // LMS Collections for MTsN 3 Banyuwangi
+    match /classes/{document=**} {
+      allow read, write: if true;
+    }
+    match /students/{document=**} {
+      allow read, write: if true;
+    }
+    match /chapters/{document=**} {
+      allow read, write: if true;
+    }
+    match /studentProgress/{document=**} {
+      allow read, write: if true;
+    }
+    match /notifications/{document=**} {
+      allow read, write: if true;
+    }
+    match /recommendations/{document=**} {
+      allow read, write: if true;
+    }
+    match /chatMessages/{document=**} {
+      allow read, write: if true;
+    }
+    match /teachers/{document=**} {
+      allow read, write: if true;
+    }
+    match /schoolSettings/{document=**} {
+      allow read, write: if true;
+    }
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

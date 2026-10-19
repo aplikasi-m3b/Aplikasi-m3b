@@ -1,0 +1,8 @@
+{
+  "name": "Remix EduLMS - Platform Pembelajaran Interaktif Guru \u0026 Siswa",
+  "description": "Aplikasi LMS Pembelajaran untuk Guru dan Siswa: materi, latihan soal, game edukasi interaktif, chat real-time, analisis kelemahan dan kelebihan siswa, serta pemantauan progres bab terstruktur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
